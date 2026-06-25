@@ -1,0 +1,137 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* SCROLL SUAVE */
+html {
+    scroll-behavior: smooth;
+}
+
+/* FONDO PRINCIPAL */
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at 50% 50%,
+        #4BC8D1 0%,
+        #0E8A93 25%,
+        #045184 50%,
+        #31124D 75%,
+        #000000 100%
+    ) !important;
+}
+
+/* ANULAR BOOTSTRAP FONDOS */
+.container-fluid,
+.row,
+.col-lg-5,
+.col-lg-7 {
+    background: transparent !important;
+}
+
+/* CONTACTO */
+.contacto {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* IZQUIERDA */
+.izquierda {
+    padding: 50px;
+}
+
+.izquierda h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.izquierda p {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+/* BOTÓN FAQ */
+.preguntas {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background: #d2d7df;
+    color: #2b1843;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.preguntas:hover {
+    background: white;
+    color: black;
+}
+
+/* FORMULARIO */
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.form-control,
+.form-select {
+    padding: 14px;
+    background: rgba(255,255,255,.25);
+    border: none;
+    color: white !important;
+}
+
+.form-control::placeholder {
+    color: rgba(255,255,255,.7);
+}
+
+.form-control:focus,
+.form-select:focus {
+    background: rgba(255,255,255,.35);
+    border: 1px solid white;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-select option {
+    color: black;
+}
+
+/* TEXTAREA */
+textarea {
+    resize: none;
+}
+
+/* BOTÓN */
+.enviar {
+    padding: 12px 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    background: #d9d9d9;
+    color: black;
+    transition: .3s;
+}
+
+.enviar:hover {
+    background: white;
+}
+
+/* FAQ */
+.faq {
+    padding: 100px 40px;
+    background: #111;
+    color: white;
+    text-align: center;
+}
